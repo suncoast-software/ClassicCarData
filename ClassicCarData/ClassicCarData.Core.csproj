@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassicCarData.Data\ClassicCarData.Data.csproj" />
+    <ProjectReference Include="..\ClassicCarData.Services\ClassicCarData.Services.csproj" />
+  </ItemGroup>
+
+</Project>
