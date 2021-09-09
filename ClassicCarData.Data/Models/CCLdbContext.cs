@@ -28,7 +28,7 @@ namespace ClassicCarData.Data.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=SQL5050.site4now.net;Initial Catalog=DB_A4DFFC_CCLdb;User Id=DB_A4DFFC_CCLdb_admin;Password=451145_Gl");
+                optionsBuilder.UseSqlServer("Data Source=//;Initial Catalog=//;User Id=//;Password=PASSWORD");
             }
         }
 
